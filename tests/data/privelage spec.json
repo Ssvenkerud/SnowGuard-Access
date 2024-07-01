@@ -1,0 +1,27 @@
+{
+
+"nodes":{
+
+"BUISNESS_UNIT":{"type":""},
+
+"DATABASE":{"type": "database"},
+
+"FUNCTIONAL_ROLE":{"type": "functional_role"},
+
+"ACCSESS_ROLE":{"type": "accsess_role"},
+
+"NAME":{"type": "user"}
+
+},
+
+"edges":[
+
+["DATABASE", "ACCSESS_ROLE"],
+
+["ACCSESS_ROLE", "FUNCTIONAL_ROLE"],
+
+["FUNCTIONAL_ROLE", "NAME"]
+
+]
+
+}
