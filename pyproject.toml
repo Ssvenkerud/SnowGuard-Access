@@ -19,7 +19,7 @@ setuptools = "^68.2.2"
 pytest = "^7.2.0"
 pytest-cov = "^3.0.0"
 pytest-mock = "^3.6.1"
-black = "^23.12.1"
+black = "^24.3.0"
 isort = "^5.9.3"
 
 [build-system]
